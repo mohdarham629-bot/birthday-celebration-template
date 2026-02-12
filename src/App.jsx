@@ -96,7 +96,7 @@ function App() {
           <h1 id="heroTitle">
             {birthdayReached ? (
               <>
-                Happy Birthday <span className="highlight">[Meeta]</span> 🎂
+                Happy Birthday <span className="highlight">[Meetuuuuuu]</span> 🎂
               </>
             ) : (
               <>
@@ -105,7 +105,7 @@ function App() {
               </>
             )}
           </h1>
-          <p>Your personalized message goes HI 💗</p>
+          <p>Not To Be Dramatic...But Life's Better With You Around 💗</p>
         </section>
 
         <Countdown
@@ -117,9 +117,9 @@ function App() {
           <h2 id="teaserHeading">
             {birthdayReached
               ? "💖 Ready for your surprise! 💖"
-              : "✨ A special celebration awaits you at midnight... ✨"}
+              : "✨ At The Stroke Of Midnight, Something Prepared With Care Awaits You...🌙"}
           </h2>
-          <p className="teaser-hint">Something magical is about to unfold 💫</p>
+          <p className="teaser-hint">Because Some Souls Deserve Celebration 🦋 </p>
         </section>
 
         <button
