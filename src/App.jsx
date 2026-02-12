@@ -128,7 +128,7 @@ function App() {
           disabled={!birthdayReached}
           onClick={() => goToPage(2)}
         >
-          🎀 Let's Celebrate
+          Await The Hour
         </button>
       </div>
 
