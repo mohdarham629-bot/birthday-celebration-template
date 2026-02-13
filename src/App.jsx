@@ -19,7 +19,7 @@ function App() {
   // Check localStorage to persist birthday reached state
   // const [birthdayReached, setBirthdayReached] = useState(() => {
     // const saved = localStorage.getItem("birthdayReached");
-    return saved === "true";
+    //return saved === "true";
 
   // ✅ FOR TESTING: Uncomment this line to always show countdown on reload
   const [birthdayReached, setBirthdayReached] = useState(false);
