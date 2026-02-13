@@ -20,10 +20,10 @@ function App() {
   const [birthdayReached, setBirthdayReached] = useState(() => {
     const saved = localStorage.getItem("birthdayReached");
     return saved === "true";
-    });
-  
+  });
+
   // ✅ FOR TESTING: Uncomment this line to always show countdown on reload
-  const [birthdayReached, setBirthdayReached] = useState(false);
+  // const [birthdayReached, setBirthdayReached] = useState(false);
 
   const [showEffects, setShowEffects] = useState(false);
 
@@ -96,16 +96,16 @@ function App() {
           <h1 id="heroTitle">
             {birthdayReached ? (
               <>
-                Happy Birthday <span className="highlight">[Meetuuuuuu]</span> 🎂
+                Happy Birthday <span className="highlight">[Name]</span> 🎂
               </>
             ) : (
               <>
-                Counting down to <span className="highlight">[Meeta]'s</span>{" "}
+                Counting down to <span className="highlight">[Name]'s</span>{" "}
                 special day 🎂
               </>
             )}
           </h1>
-          <p>Not To Be Dramatic...But Life's Better With You Around 💗</p>
+          <p>Your personalized message goes here 💗</p>
         </section>
 
         <Countdown
@@ -117,9 +117,9 @@ function App() {
           <h2 id="teaserHeading">
             {birthdayReached
               ? "💖 Ready for your surprise! 💖"
-              : "✨ At The Stroke Of Midnight, Something Prepared With Care Awaits You...🌙"}
+              : "✨ A special celebration awaits you at midnight... ✨"}
           </h2>
-          <p className="teaser-hint">Because Some Souls Deserve Celebration 🦋 </p>
+          <p className="teaser-hint">Something magical is about to unfold 💫</p>
         </section>
 
         <button
@@ -128,7 +128,7 @@ function App() {
           disabled={!birthdayReached}
           onClick={() => goToPage(2)}
         >
-          Await The Hour
+          🎀 Let's Celebrate
         </button>
       </div>
 
