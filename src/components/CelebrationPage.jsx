@@ -265,7 +265,6 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
 
   return (
     <div className={`celebration-page ${lightsOn ? "lights-on" : ""}`}>
-      <Effects />
       {/* Confetti Effect */}
       {showConfetti && <Confetti />}
 
