@@ -6,7 +6,7 @@ export default function Effects() {
     const createSparkle = () => {
       const sparkle = document.createElement("div");
 
-      sparkle.innerHTML = "✦";
+      sparkle.innerHTML = "✨";
       sparkle.style.position = "fixed";
       sparkle.style.left = Math.random() * 100 + "vw";
       sparkle.style.bottom = "-20px";
