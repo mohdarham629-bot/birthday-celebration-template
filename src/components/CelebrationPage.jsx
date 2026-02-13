@@ -265,6 +265,7 @@ function CelebrationPage({ onComplete, musicPlayerRef }) {
 
   return (
     <div className={`celebration-page ${lightsOn ? "lights-on" : ""}`}>
+      <h1 style={{color: "white"}}>TEST</h1>
       {/* Confetti Effect */}
       {showConfetti && <Confetti />}
 
