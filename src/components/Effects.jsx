@@ -32,4 +32,3 @@ export default function Effects() {
 }
 
 
-export default Effects;
