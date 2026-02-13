@@ -1,7 +1,7 @@
 import { gsap } from "gsap";
 import { useEffect, useState } from "react";
-import Effects from "./Effects";
 import "./CelebrationPage.css";
+import Confetti from "./Confetti";
 
 // Generate heart positions outside component to avoid render issues
 const generateHeartPositions = () =>
